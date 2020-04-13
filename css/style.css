@@ -177,7 +177,8 @@ img {
                 display: none;
             }
 
-            .logo:hover,
-
-            }
+						.logo:hover,
+    				.nav-links:hover {
+		        color: rgba(255, 255, 255, 1);
+    }
         }
