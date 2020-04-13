@@ -1,18 +1,8 @@
 
-.container{
-width:100%;
-margin: 0 auto;
-	background-color: #a5283b;
-
-}
-
 body {
 	background: hsl(0, 0%, 90%);
 }
 
-/*--------------------------------------------------------------
-Typography
---------------------------------------------------------------*/
 body
  {
 	color: #404040;
@@ -29,7 +19,6 @@ h1{
 	font-weight: 700;
 	padding-bottom: 8px;
 }
-
 
 h2,
 {
@@ -68,13 +57,14 @@ img {
 	height: auto;
 }
 
+
 .card {
+  position: relative;
 	background: #ffffff;
 	margin-bottom: 2em;
 	border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
 	border: 2px solid rgba(7, 7, 7, 0.12);
-
 }
 
 .card a {
@@ -84,11 +74,10 @@ img {
 .card:hover {
 	border-color: #007a87;
 	-webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
-
 
 .card-content {
 	padding: 1.4em;
@@ -105,7 +94,6 @@ transition: all 1s ease-in-out;
 }
 
 /* Flexbox stuff */
-
 @media screen and (min-width: 40em) {
     .cards {
         display: flex;
