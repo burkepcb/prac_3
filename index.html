@@ -5,14 +5,27 @@
 		<title>Info Cards</title>
 		<meta name="description" content="">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<script src="js/script.js"></script>
+		<!--<script src="js/script.js"></script>-->
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+<script>
+		document.onload = function(e){
+		   let mainNav = document.getElementById('js-menu');
+		   let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		   navBarToggle.addEventListener('click', function () {
+		      mainNav.classList.toggle('.active');
+		   });
+		}
+</script>
+
+
 	</head>
 <body>
-
 	<nav class="navbar">
 	        <span class="navbar-toggle" id="js-navbar-toggle">
-	            <i class="fas fa-bars"></i>
+	            <img class="toggle" src="images\toggle.png" alt=""/>
 	        </span>
 	        <a href="#" class="logo">logo</a>
 	        <ul class="main-nav" id="js-menu">
@@ -20,16 +33,16 @@
 	                <a href="#" class="nav-links">Home</a>
 	            </li>
 	            <li>
-	                <a href="#" class="nav-links">Products</a>
+	                <a href="#" class="nav-links">News</a>
 	            </li>
 	            <li>
-	                <a href="#" class="nav-links">About Us</a>
+	                <a href="#" class="nav-links">About</a>
 	            </li>
 	            <li>
 	                <a href="#" class="nav-links">Contact Us</a>
 	            </li>
 	            <li>
-	                <a href="#" class="nav-links">Blog</a>
+	                <a href="#" class="nav-links">Events</a>
 	            </li>
 	        </ul>
 	    </nav>
