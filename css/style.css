@@ -159,6 +159,5 @@ img {
 }
 
 .active {
-	clear: both;
-  display: block;
+	 display: block;
 }
